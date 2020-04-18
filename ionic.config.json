@@ -1,0 +1,7 @@
+{
+  "name": "squadradar-app-v2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
