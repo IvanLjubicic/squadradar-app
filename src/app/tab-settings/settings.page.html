@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Settings
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item lines="full">
+    <ion-label position="floating"
+      >Max distance from peer reports in meters</ion-label
+    >
+    <ion-input
+      type="number"
+      (ionChange)="onChange($event)"
+      min="50"
+      max="5000"
+    ></ion-input>
+  </ion-item>
+</ion-content>

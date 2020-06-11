@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-segment [(ngModel)]="type" (ionChange)="update()">
+      <ion-segment-button value="manual">
+        Manual
+      </ion-segment-button>
+      <ion-segment-button value="contact">
+        Contact
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-content>
+      {{about}}
+    </ion-card-content>
+  </ion-card>
+</ion-content>

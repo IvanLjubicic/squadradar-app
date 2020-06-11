@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1002118668779",
+    "firebase_url": "https://squadradar.firebaseio.com",
+    "project_id": "squadradar",
+    "storage_bucket": "squadradar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002118668779:android:52f876e94273e6c780f9ae",
+        "android_client_info": {
+          "package_name": "com.squadradar.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002118668779-vgb2nl2b8gu783n3ha3fatifadd67pkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBK-d6wEc7AXeDR7rZj2cfea12wahITg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002118668779-vgb2nl2b8gu783n3ha3fatifadd67pkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
